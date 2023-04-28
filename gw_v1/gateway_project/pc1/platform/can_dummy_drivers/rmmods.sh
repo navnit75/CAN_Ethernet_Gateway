@@ -1,0 +1,25 @@
+sudo rmmod can_ecu_dummy_driver
+sudo rmmod can_ecu_dummy_driver1
+sudo rmmod can_ecu_dummy_driver2
+sudo rmmod can_ecu_dummy_driver3
+sudo rmmod can_ecu_dummy_driver4
+sudo rmmod can_ecu_dummy_driver5
+sudo rmmod can_ecu_dummy_driver6
+sudo rmmod can_ecu_dummy_driver7
+sudo rmmod can_ecu_dummy_driver_TSCF
+sudo rmmod can_ecu_dummy_driver_TSCF_req
+sudo rmmod can_ecu_dummy_driver_NTSCF
+sudo rmmod can_ecu_dummy_driver_NTSCF_req
+
+sudo rmmod gw_ecu_dummy_driver
+sudo rmmod gw_ecu_dummy_driver1
+sudo rmmod gw_ecu_dummy_driver2
+sudo rmmod gw_ecu_dummy_driver3
+sudo rmmod gw_ecu_dummy_driver4
+sudo rmmod gw_ecu_dummy_driver5
+sudo rmmod gw_ecu_dummy_driver6
+sudo rmmod gw_ecu_dummy_driver7
+sudo rmmod gw_ecu_dummy_driver_TSCF
+sudo rmmod gw_ecu_dummy_driver_TSCF_req
+sudo rmmod gw_ecu_dummy_driver_NTSCF
+sudo rmmod gw_ecu_dummy_driver_NTSCF_req

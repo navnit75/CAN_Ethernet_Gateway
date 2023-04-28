@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/pavan/optimizing/AES-CMAC/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/0673dacf/
+$(BIN_PATH)/$(BIN_NAME)	Makefile	/^$(BIN_PATH)\/$(BIN_NAME): $(OBJECTS)$/;"	t
+$(BUILD_PATH)/%.o	Makefile	/^$(BUILD_PATH)\/%.o: $(SRC_PATH)\/%.$(SRC_EXT)$/;"	t
+ACCENTCOLOR	src/main.c	/^#define ACCENTCOLOR /;"	d	file:
+AES and AES-CMAC	README.md	/^# AES and AES-CMAC$/;"	c
+AES_H	include/aes.h	/^#define AES_H$/;"	d
+AddRoundKey	src/aes.c	/^void AddRoundKey(unsigned char state[4][4], unsigned char* key)$/;"	f	typeref:typename:void
+BIN_NAME	Makefile	/^BIN_NAME = aes-cmac.out$/;"	m
+BIN_PATH	Makefile	/^BIN_PATH = build\/bin$/;"	m
+BUILD_PATH	Makefile	/^BUILD_PATH = build\/obj$/;"	m
+Build	README.md	/^## Build$/;"	s	chapter:AES and AES-CMAC
+CMAC_H	include/cmac.h	/^#define CMAC_H$/;"	d
+COMMON_H	include/common.h	/^#define COMMON_H$/;"	d
+COMPILE_FLAGS	Makefile	/^COMPILE_FLAGS = -Wall -Wextra -g -w -std=c++11 $/;"	m
+CXX	Makefile	/^CXX ?= gcc$/;"	m
+CXXFLAGS	Makefile	/^release: export CXXFLAGS := $(CXXFLAGS) $(COMPILE_FLAGS)$/;"	m
+Cipher	src/aes.c	/^void Cipher(unsigned char* in, unsigned char* out, unsigned char* w, unsigned char Nk, unsigned /;"	f	typeref:typename:void
+DEFAULT	src/main.c	/^#define DEFAULT /;"	d	file:
+DEPS	Makefile	/^DEPS = $(OBJECTS:.o=.d)$/;"	m
+GenerateSubkey	src/cmac.c	/^void GenerateSubkey(unsigned char* key, unsigned char* K1, unsigned char* K2)$/;"	f	typeref:typename:void
+INCLUDES	Makefile	/^INCLUDES = -I include\/ -I \/usr\/local\/include$/;"	m
+InvCipher	src/aes.c	/^void InvCipher(unsigned char* in, unsigned char* out, unsigned char* w, unsigned char Nk, unsign/;"	f	typeref:typename:void
+InvMixColumns	src/aes.c	/^void InvMixColumns(unsigned char state[4][4])$/;"	f	typeref:typename:void
+InvShiftRows	src/aes.c	/^void InvShiftRows(unsigned char state[4][4])$/;"	f	typeref:typename:void
+InvSubBytes	src/aes.c	/^void InvSubBytes(unsigned char state[4][4])$/;"	f	typeref:typename:void
+KeyExpansion	src/aes.c	/^void KeyExpansion(unsigned char* key, unsigned char* w, unsigned char Nk, unsigned char Nr)$/;"	f	typeref:typename:void
+LIBS	Makefile	/^LIBS = $/;"	m
+MixColumns	src/aes.c	/^void MixColumns(unsigned char state[4][4])$/;"	f	typeref:typename:void
+OBJECTS	Makefile	/^OBJECTS = $(SOURCES:$(SRC_PATH)\/%.$(SRC_EXT)=$(BUILD_PATH)\/%.o)$/;"	m
+PASSORFAIL	src/utils.c	/^#define PASSORFAIL /;"	d	file:
+Rcon	include/aes.h	/^static unsigned char Rcon[] = {$/;"	v	typeref:typename:unsigned char[]
+Reference	README.md	/^## Reference$/;"	s	chapter:AES and AES-CMAC
+RotWord	src/aes.c	/^unsigned char* RotWord(unsigned char* word)$/;"	f	typeref:typename:unsigned char *
+SOURCES	Makefile	/^SOURCES = $(shell find $(SRC_PATH) -name '*.$(SRC_EXT)' | sort -k 1nr | cut -f2-)$/;"	m
+SRC_EXT	Makefile	/^SRC_EXT = c$/;"	m
+SRC_PATH	Makefile	/^SRC_PATH = src$/;"	m
+ShiftRows	src/aes.c	/^void ShiftRows(unsigned char state[4][4])$/;"	f	typeref:typename:void
+SubBytes	src/aes.c	/^void SubBytes(unsigned char state[4][4])$/;"	f	typeref:typename:void
+SubWord	src/aes.c	/^unsigned char* SubWord(unsigned char* word)$/;"	f	typeref:typename:unsigned char *
+aes_128_decrypt	src/aes.c	/^unsigned char* aes_128_decrypt(unsigned char* in, unsigned char* out, unsigned char* key)$/;"	f	typeref:typename:unsigned char *
+aes_128_encrypt	src/aes.c	/^unsigned char* aes_128_encrypt(unsigned char* in, unsigned char* out, unsigned char* key)$/;"	f	typeref:typename:unsigned char *
+aes_192_decrypt	src/aes.c	/^unsigned char* aes_192_decrypt(unsigned char* in, unsigned char* out, unsigned char* key)$/;"	f	typeref:typename:unsigned char *
+aes_192_encrypt	src/aes.c	/^unsigned char* aes_192_encrypt(unsigned char* in, unsigned char* out, unsigned char* key)$/;"	f	typeref:typename:unsigned char *
+aes_256_decrypt	src/aes.c	/^unsigned char* aes_256_decrypt(unsigned char* in, unsigned char* out, unsigned char* key)$/;"	f	typeref:typename:unsigned char *
+aes_256_encrypt	src/aes.c	/^unsigned char* aes_256_encrypt(unsigned char* in, unsigned char* out, unsigned char* key)$/;"	f	typeref:typename:unsigned char *
+aes_cmac	src/cmac.c	/^unsigned char* aes_cmac(unsigned char* in, unsigned int length, unsigned char* out, unsigned cha/;"	f	typeref:typename:unsigned char *
+all	Makefile	/^all: $(BIN_PATH)\/$(BIN_NAME)$/;"	t
+block_leftshift	src/utils.c	/^void block_leftshift(unsigned char* dst, unsigned char* src)$/;"	f	typeref:typename:void
+block_xor	src/utils.c	/^void block_xor(unsigned char* dst, unsigned char* a, unsigned char* b)$/;"	f	typeref:typename:void
+clean	Makefile	/^clean:$/;"	t
+const_Bsize	include/cmac.h	/^#define const_Bsize /;"	d
+default_target	Makefile	/^default_target: release$/;"	t
+dirs	Makefile	/^dirs:$/;"	t
+ecb_decrypt	src/encrypt.c	/^unsigned char* ecb_decrypt(unsigned char* in, unsigned char* key, unsigned char* (*some_decrypt)/;"	f	typeref:typename:unsigned char *
+ecb_encrypt	src/encrypt.c	/^unsigned char* ecb_encrypt(unsigned char* in, unsigned char* key, unsigned char* (*some_encrypt)/;"	f	typeref:typename:unsigned char *
+invsbox	include/aes.h	/^static unsigned char invsbox[] = {$/;"	v	typeref:typename:unsigned char[]
+main	src/main.c	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+mul	src/aes.c	/^unsigned char mul(unsigned char a, unsigned char b)$/;"	f	typeref:typename:unsigned char
+perform	src/main.c	/^void perform(char* argv[])$/;"	f	typeref:typename:void
+print_bytes	src/utils.c	/^void print_bytes(unsigned char* buf, const size_t len)$/;"	f	typeref:typename:void
+release	Makefile	/^release: dirs$/;"	t
+release	Makefile	/^release: export CXXFLAGS := $(CXXFLAGS) $(COMPILE_FLAGS)$/;"	t
+run	src/main.c	/^void run(char* argv[])$/;"	f	typeref:typename:void
+sbox	include/aes.h	/^static unsigned char sbox[] = {$/;"	v	typeref:typename:unsigned char[]
+test	src/utils.c	/^bool test()$/;"	f	typeref:typename:bool
+verify_mac	src/cmac.c	/^bool verify_mac(unsigned char* in, unsigned int length, unsigned char* out, unsigned char* key)$/;"	f	typeref:typename:bool
